@@ -12,3 +12,7 @@
     - if whole: Add two numbers together
     - else: Skip the argument
 - Print out the resulting sum
+
+## Summary
+
+Write good code.
