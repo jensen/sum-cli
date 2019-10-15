@@ -19,17 +19,12 @@ const getSum = function(numbers) {
     // Check if number is whole or not (C in conditionals)
     if (number % 1 === 0 && !isNaN(number)) {
       // if whole: Add two numbers together
-      console.log(number, " is whole");
       total = total + number;
-    } else {
-      // else: Skip the argument
-      console.log(number, " is not whole");
     }
   });
 
   return total;
 };
-console.log("arguments: ", getArguments());
 
-console.log("sum is: ", getSum(getArguments()));
 // Print out the resulting sum
+console.log("sum is: ", getSum(getArguments()));
